@@ -22,10 +22,7 @@
 {
     grid-column: 700px;
     background-color: #f7f7f7;
-    padding-top: 2rem;
-    padding-bottom: 2rem;
-    padding-left: 3rem;
-    padding-right: 3rem;
+   
 }
 .left-content
 {
@@ -161,5 +158,11 @@
 {
     display: flex;
     justify-content: space-between;
+}
+@media screen and (max-width:673px){
+    .main-content{
+        grid-template-columns: repeat(1,1fr);
+    }
+    
 }
 /* Write CSS code below */
