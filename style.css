@@ -15,12 +15,12 @@
 }
 .left-section
 {
-    grid-column: 300px;
+    grid-column: span 1;
     background-color: #242531;
 }
 .right-section
 {
-    grid-column: 700px;
+    grid-column: span 1/span 2;
     background-color: #f7f7f7;
    
 }
@@ -134,6 +134,10 @@
 .php
 {
     width: 40%;
+}
+.right-main-content
+{
+    padding: 2rem 3rem;
 }
 .right-title
 {
